@@ -1,0 +1,88 @@
+/*This is the style sheet for HW 1 - Web Design Skeleton */
+
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body{
+
+	background-color: #777;
+	color: #777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	width 100%;
+}
+
+#centerContainer { 
+	width: 960px; margin: 0px auto;
+}
+
+h2{
+	background-color: #ebebeb;
+	padding: 30px;
+	margin: 8px 0px 0px 0px;
+	width: 900px;
+	font-weight: lighter;
+	font-size: 20px;
+}
+
+#main_section {
+	background-color: #ebebeb;
+	padding: 30px 0px 0px 0px;
+	width: 520px;
+	height: 280px;
+	float: left;
+	font-size: 20px;
+	margin: 20px 20px 0px 0px;
+}
+
+article{
+	background-color: #777;
+	color: #ebebeb ;
+	padding: 20px;
+	width: 500px;
+	height: 200px;
+	float: left;
+	font-size: 20px;
+	margin: 20px 20px 0px 10px;
+}
+
+aside {
+	background-color: #ebebeb;
+	padding: 30px;
+	width: 360px;
+	height: 280px;
+	float: left;
+	font-size: 20px;
+	margin: 20px 0px 0px 0px;
+}
+
+p {
+	clear: both;
+	overflow: auto;
+	background-color: #ebebeb;
+	color: #777;
+	font-weight: bold;
+	padding: 10px;
+	width: 450x;
+	height: 50px;
+	font-size: 20px;
+	margin: 20px 0px 0px 0px;
+}
+
+#specialp {
+	margin: 10px 0px 0px 0px;
+	font-weight: normal;
+}
+
+footer{
+	clear: both; 	
+	background-color: #ebebeb;
+	padding: 30px;
+	width: 900px;
+	font-weight: lighter;
+	font-size: 20px;
+	position: fixed;
+	bottom: 30px;
+}
